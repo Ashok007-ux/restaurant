@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-image: url('food-image.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: cursive;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-size: 2em;
+}
+
+.login-link {
+    text-decoration: underline;
+}
+
+.main-cont {
+    margin-top: 140px;
+}
+
+.hotel-title {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: 7rem;
+}
+
+.find-text,
+.wait-text {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1.5em;
+}
+
+.order-button {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.order-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.order-button:active {
+    opacity: 0.3;
+}
+
+.social-links {
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.social-title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.links {
+    display: inline;
+}
+
+.links-list {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#yt,
+#ig,
+#fb,
+#gh {
+    font-size: 0.7em;
+}
+
+.main-cont>a {
+    font-size: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.authors {
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}

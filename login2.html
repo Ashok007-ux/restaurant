@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<HTML lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="X-UA-Compatible" content="IE-edge">
+    <meta name="Viewport" contet="width=device-width, initial=" scale=1.0 ">
+     <title>LOGIN-BOX DESIGN</title>
+    
+    
+     <link rel="stylesheet " href="login.css ">
+     <link rel="stylesheet " href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css ">
+</head>
+<body>
+    <div class="login-box ">
+        <img src="2.png ">
+       
+        <h2>ADMIN</h2>
+        <H3>EMAIL:</H3>
+        <input type="email " name=" " placeholder="your email ">
+        <H3>PASSWORD:</H3>
+        <input type="password " name=" " placeholder="your password " id="pass " required>
+        <i class="fas fa-eye " ondblclick="see() "></i>
+        <button class="button-edit " type="button ">LOGIN</button>
+    </div>
+    
+    <script>
+        function see(){
+
+            var x = document.getElementById("pass ");
+            if(x.type === "password "){
+                x.type = "password ";
+            }
+            else{
+                x.type = "text "
+            }
+        }
+    </script>
+    </body>
+
+</HTML>
